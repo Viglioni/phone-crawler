@@ -1,0 +1,6 @@
+{
+  "name": "Phone crawler",
+  "description": "Simple microservice that returns all phones in a page",
+  "image": "heroku/clojure",
+  "addons": [ "heroku-postgresql" ]
+}
