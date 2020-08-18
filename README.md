@@ -10,10 +10,8 @@ This project is a simple endpoint that given a page url, returns all matches of 
 4. (11)11111-1111
 5. 11 1111-1111
 6. 11 11111-1111
-7. 11-1111-1111
-8. 11-11111-1111
-9. 1111-1111
-10. 11111-1111
+7. 1111-1111
+8. 11111-1111
 
 
 ## API
