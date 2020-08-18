@@ -11,11 +11,11 @@
 
 
 (defn bad-request []
-  (resp/bad-request "I find your lack of page url disturbing.\n"))
+  (resp/bad-request "I find your lack of page-url disturbing.\n"))
 
 
 (defn phones [page-url]
-  (if (= "" page-url)
+  (if (or (not page-url) (= "" page-url))
     (bad-request)
     (try
       (let [html (page page-url)
