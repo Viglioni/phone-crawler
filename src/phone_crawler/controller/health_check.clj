@@ -1,5 +1,5 @@
 (ns phone-crawler.controller.health-check
-  (:require [ring.util.http-response :refer [ok internal-server-error]]
+  (:require [phone-crawler.controller.string-response :refer [ok internal-server-error]]
             [phone-crawler.controller.curl :refer [curl]]
             [phone-crawler.controller.time :refer [date-and-time-hr]]))
 
