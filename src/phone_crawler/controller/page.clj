@@ -22,6 +22,6 @@
             caught-phones (logic/phones html)]
         (resp/ok {:phones caught-phones}))
       (catch Exception e
-        (resp/bad-request (str "Cannot crawl " page-url))))))
+        (resp/internal-server-error (str "Cannot crawl " page-url))))))
 
 
